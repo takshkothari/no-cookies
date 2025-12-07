@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Rejector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>No Cookies</h1>
+    <p class="description">Automatically reject cookie consent dialogs</p>
+    
+    <div class="toggle-section">
+      <label class="switch">
+        <input type="checkbox" id="toggleExtension" checked>
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label">Extension Enabled</span>
+    </div>
+    
+    <div class="status" id="status">
+      <p>✓ Active - Rejecting cookies automatically</p>
+    </div>
+    
+    <div class="info">
+      <h3>What it does:</h3>
+      <ul>
+        <li>Detects cookie consent dialogs</li>
+        <li>Clicks reject/decline buttons automatically</li>
+        <li>Removes non-essential cookies</li>
+        <li>Clears tracking data</li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
